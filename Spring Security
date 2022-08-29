@@ -1,0 +1,19 @@
+Spring Security
+
+> Implemented using servlet filters in the background
+>Two method of securing a web app : Declarative and Programmatic
+>Servlet filters are used to pre-process / post-process web requests.
+>Servlet filters can route web requests based on security logic.
+>Spring provide a bulk of security functionality with servelet filters.
+
+Declarative Security
+>Define app security constraints in configuration (java config(@Configuration ,no xml) or XML).
+
+Programmatic Security
+>Spring provides an API for custom application coding.
+>Provide Greater customization for specific app requirements.(we can add personal security implementation logic/plugin).
+
+Different Login Methods
+>HTTP Basic Authentication
+>Default Login Form
+>Custom Login Form
